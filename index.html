@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars Hangman!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" type ="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type ="text/css" href="assets/css/reset.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/dstar.png"/>
+    <!-- jQuery reference -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+        <img src = "https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/stars-in-space-moving-fast-background_v1njcikee__F0000.png" id = "background">
+        <div class = "container">
+            <div id ="image"><img id = "starwars" src ="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Star_Wars_Yellow_Logo.svg/2000px-Star_Wars_Yellow_Logo.svg.png" alt = "Star Wars title"></div>
+            <div id ="star-word"></div>
+            <h4 id="description"></h4>
+            <h3 id ="press-start">Press any key to begin 'Star Wars Hangman'!</h3>
+            <div class = "row">
+                <div class = "col-lg-12" id ="game-space">
+                    <br>
+                    <span id ="current"></span>
+                    <br>
+                </div>
+            </div>
+                <div class = "row">
+                    <div class = "col-lg-12" id= "stats-space">
+                        <div class = "row">
+                            <div class = "col-lg-6">
+                                <h3>Wins: <span id = "wins"></span></h3>
+                            </div>
+                            <div class ="col-lg-6">
+                                <h3>Losses: <span id = "losses"></span></h3>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class = "col-lg-6">
+                                <h3>Guesses remaining: </h3>
+                                <div id ="guesses-rem"></div>
+                                <br>
+                            </div>
+                            <div class = "col-lg-6">
+                                <h3>Letters already guessed: </h3>
+                                <div id = "guessed"></div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+
+        <div class="footer">
+                <div class ="row">
+                    <div class ="col lg 12">
+                        <a href ="https://github.com/henrywinget" target="_blank"><img id ="github" src= "https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-128.png" alt="GitHub Icon"></a>
+                        <a href ="https://www.linkedin.com/in/henry-winget-343240122/" target="_blank"><img id ="linkedin" src= "https://github.com/henrywinget/Bootstrap-Portfolio/blob/master/images/linkedin-icon.png?raw=true" alt="LinkedIn Icon"></a>
+                        <a href ="https://stackoverflow.com/users/8904181/henry-winget" target="_blank"><img id ="stack" src= "https://github.com/henrywinget/Bootstrap-Portfolio/blob/master/images/if_overflow_334695.png?raw=true" alt="StackOverflow Icon"></a>
+                        <p>Henry Winget &copy; 2018</p>
+                    </div>
+                </div>
+        </div>
+        <script src="assets/javascript/game.js"></script> 
+
+
+</body>
+</html>

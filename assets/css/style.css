@@ -1,0 +1,81 @@
+#stats-space{
+    margin-top:20px;
+}
+
+#game-space, #stats-space{
+    border: 2px groove yellow;
+}
+
+h1, h2, h3, p, div{
+    color: yellow;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+img {
+    width: 960px;
+    margin-top: 20px;
+}
+
+#background{
+    width: 100%;
+    z-index: -10;
+    position: fixed;
+    height: 100%;
+    margin-top: 0;
+}
+
+@keyframes drive {
+    from {
+      transform: scale(0.0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  #starwars {
+    margin-top: 20px;
+    animation: drive 16s cubic-bezier(0, 0.01, 0.01, 0.01);
+  }
+
+  #star-word {
+      margin-top: 20px;
+      font-size: 40px;
+  }
+
+  #press-start {
+    animation: mymove 5s infinite;
+    opacity: 0;
+  }
+
+  @keyframes mymove {
+    50% {opacity: 100;}
+}
+
+.footer{
+    position: relative;
+    bottom: 0px;
+    background: black;
+    border-top: 2px groove yellow;
+    border-bottom: 2px groove yellow;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: yellow;
+    width: 100%;
+}
+
+form{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#github, #linkedin, #stack {
+    z-index: 10;
+    height: 30px;
+    width: 30px;
+    margin: 10px 2px;
+}
