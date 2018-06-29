@@ -1,8 +1,8 @@
 # Star Wars Hangman-Game
 
-##Click here to play Star Wars Hang-Man >>>>> https://henrywinget.github.io/Star-Wars-Hangman/
+## Click here to play Star Wars Hang-Man >>>>> https://henrywinget.github.io/Star-Wars-Hangman/
 
-##Rules:
+## Rules:
 
 1. Press any key to begin!
 
